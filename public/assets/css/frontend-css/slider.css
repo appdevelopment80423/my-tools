@@ -1,0 +1,330 @@
+/* start Our Promotion partners */
+.our-partners {
+    margin: 0 75px;
+}
+
+.section-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 25px 10px 25px;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    margin: 0;
+}
+
+.section-title h2:after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+box-shadow: 0 2px 6px rgba(255, 255, 255, 0.9);
+}
+
+/*-- Start How To Use Application --*/
+.howToUse-app {
+    position: relative;
+    /*overflow: hidden;*/
+    z-index: 1;
+    margin-top: 150px;
+    padding-top: 30px;
+}
+
+.howToUse-app:before {
+    content: "";
+    width: 100%;
+    height: 60%;
+    /* background-color: #FFE2BC; */
+    background-image:  url("../images/hero/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: -110px;
+    transform: skew(0deg, -6deg);
+    display: none;
+}
+
+.howToUse-app:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image:  url("../images/slider/howtouse-bg.png");
+    background-repeat: no-repeat;
+    background-position: 12% 200px;
+    position: absolute;
+    top: -7%;
+    left: -75px;
+    display: none;
+}
+
+.app-use-box {
+    border: 1px solid rgba(5, 46, 78, 0.48);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 99;
+    max-width: 850px;
+    margin: 25px auto 25px;
+    box-shadow: 0 0 30px #000000bd;
+    background-image:  url("../images/testimonial/Frame 1000004992.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.app-use-box .section-title {
+    margin-bottom: 30px;
+}
+
+.app-use-box .section-title h2 {
+    font-weight: 700;
+}
+
+.app-steps-btn {
+    background-size: 330px auto;
+    background-repeat: no-repeat;
+    max-width: 50%;
+    float: none;
+    height: 90px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 25px;
+    flex: 0 0 50%;
+    cursor: pointer;
+    outline: none;
+}
+
+.app-steps-btn:nth-child(4),
+.app-steps-btn:nth-child(8) {
+    margin-bottom: 0;
+}
+
+.steps-btn-1 {
+    background-image:  url(../images/slider/app-step-1.png);
+    order: 1;
+    height: 82px !important;
+}
+
+.steps-btn-1:hover,
+.steps-btn-1.slick-current {
+    background-image:  url(../images/slider/app-step-hover-1.png);
+    height: 82px;
+}
+
+.steps-btn-2 {
+    background-image:  url(../images/slider/app-step-2.png);
+    order: 3;
+    height: 82px !important;
+}
+
+.steps-btn-2:hover,
+.steps-btn-2.slick-current {
+    background-image:  url(../images/slider/app-step-hover-2.png);
+    height: 82px;
+}
+
+.steps-btn-3 {
+    background-image:  url(../images/slider/app-step-3.png);
+    order: 5;
+    height: 82px !important;
+}
+
+.steps-btn-3:hover,
+.steps-btn-3.slick-current {
+    background-image:  url(../images/slider/app-step-hover-3.png);
+    height: 82px;
+}
+
+.steps-btn-4 {
+    background-image:  url(../images/slider/app-step-4.png);
+    order: 8;
+    height: 82px !important;
+}
+
+.steps-btn-4:hover,
+.steps-btn-4.slick-current {
+    background-image:  url(../images/slider/app-step-hover-4.png);
+    height: 82px;
+}
+
+.steps-btn-5 {
+    background-image:  url(../images/slider/app-step-5.png);
+    order: 2;
+    height: 82px !important;
+}
+
+.steps-btn-5:hover,
+.steps-btn-5.slick-current {
+    background-image:  url(../images/slider/app-step-hover-5.png);
+    height: 82px;
+}
+
+.steps-btn-6 {
+    background-image:  url(../images/slider/app-step-6.png);
+    order: 4;
+    height: 82px !important;
+}
+
+.steps-btn-6:hover,
+.steps-btn-6.slick-current {
+    background-image:  url(../images/slider/app-step-hover-6.png);
+    height: 82px;
+}
+
+.steps-btn-7 {
+    background-image:  url(../images/slider/app-step-7.png);
+    order: 6;
+    height: 82px !important;
+}
+
+.steps-btn-7:hover,
+.steps-btn-7.slick-current {
+    background-image:  url(../images/slider/app-step-hover-7.png);
+    height: 82px;
+}
+
+.steps-btn-8 {
+    background-image:  url(../images/slider/app-step-8.png);
+    order: 8;
+    height: 82px !important;
+}
+
+.steps-btn-8:hover,
+.steps-btn-8.slick-current {
+    background-image:  url(../images/slider/app-step-hover-8.png);
+    height: 82px;
+}
+
+.steps-btn-main .slick-track {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.steps-img {
+    margin-top: -40px;
+    z-index: 99;
+}
+
+.steps-img-main img {
+    margin: 0 auto;
+}
+
+.steps-img-info img {
+	width: 345px;
+	height: 711px;
+	object-fit: cover;
+}
+
+img.step-img {
+    max-width: 320px;
+    margin-bottom: 15px;
+}
+
+.steps-img-slide {
+    position: relative;
+}
+
+.steps-dtl-img {
+    position: relative;
+    z-index: 11;
+}
+
+.step-dtl-box {
+	width: 350px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: -110px auto 0;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	height: 110px;
+	background-color: #091126;
+	border: 3px solid #091126;
+	box-shadow: inset 0 0 35px #3D2155;
+	border-radius: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+    margin-top: -10px;
+}
+
+.step-dtl-box .slick-slider {
+    height: 70px;
+    z-index: 99;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.step-dtl-box .slick-prev {
+    left: -22px;
+}
+
+.step-dtl-box .slick-next {
+    right: -22px;
+}
+
+.step-dtl-slide .slick-next:before,
+.step-dtl-slide .slick-prev:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    line-height: normal;
+    background-position: center;
+    opacity: 1;
+}
+
+.step-dtl-slide .slick-prev:before {
+    background-image:  url(../images/slider/prev-icon.svg);
+}
+
+.step-dtl-slide .slick-next:before {
+    background-image:  url(../images/slider/next-icon.svg);
+}
+
+.step-dtl-slide .slick-next.slick-disabled:before,
+.step-dtl-slide .slick-prev.slick-disabled:before {
+    opacity: 0;
+}
+
+.paging-count {
+    font-size: 10px;
+    color: #fff;
+    background-color: #3D2155;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    float: right;
+}
+
+span.pagingInfo {
+    letter-spacing: 2px;
+}
+
+.steps-info a {
+    color: #fff;
+}
+
+.watch-btn {
+    display: block;
+    max-width: 215px;
+    margin: 0 auto;
+}
+
+/*-- End How To Use Application --*/
+

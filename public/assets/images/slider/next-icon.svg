@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86.571" height="94.143" viewBox="0 0 86.571 94.143">
+  <defs>
+    <filter id="Icon_ionic-ios-arrow-back" x="0" y="0" width="86.571" height="94.143" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_4421" data-name="Group 4421" transform="translate(32.551 -9.444)">
+    <g transform="matrix(1, 0, 0, 1, -32.55, 9.44)" filter="url(#Icon_ionic-ios-arrow-back)">
+      <path id="Icon_ionic-ios-arrow-back-2" data-name="Icon ionic-ios-arrow-back" d="M19.333,15.763,11.675,8.525a1.311,1.311,0,0,1,0-1.932,1.512,1.512,0,0,1,2.049,0l8.676,8.2a1.313,1.313,0,0,1,.042,1.886L13.73,24.938a1.514,1.514,0,0,1-2.049,0,1.311,1.311,0,0,1,0-1.932Z" transform="translate(26.25 31.31)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,938 @@
+/* / developer responsive / */
+
+@media (max-width: 700px) and (min-width: 381px) {
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .feature-section .single-feature {
+        height: 410px;
+    }
+
+    .feature-section .single-feature {
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        padding: 0 20px;
+        font-size: 24px;
+    }
+
+    .feature-section .single-feature .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .icon img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .content p {
+        padding: 0 60px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .feture-top-none {
+        margin-top: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #091126;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+
+    .sticky .navbar .navbar-toggler .toggler-icon {
+        background: #FFF;
+    }
+
+    .hero-section .hero-img img {
+        width: 24pc !important;
+        /* position: absolute;
+        top: -100px;
+        right: -23px; */
+    }
+
+    img.step-img {
+        max-width: 225px;
+    }
+
+    /* .steps-img-main .steps-img-slide img {
+        width: 300px;
+    } */
+
+    .step-dtl-box {
+        width: 250px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        padding: 0 15px 10px 15px;
+    }
+
+    .app-steps-btn {
+        max-width: 100% !important;
+    }
+
+    .steps-btn-main .slick-track {
+        display: grid;
+    }
+
+    .steps-btn-1,
+    .steps-btn-1:hover,
+    .steps-btn-1.slick-current {
+        background-size: cover;
+        order: 1;
+    }
+
+    .steps-btn-2,
+    .steps-btn-2:hover,
+    .steps-btn-2.slick-current {
+        background-size: cover;
+        order: 2;
+    }
+
+    .steps-btn-3,
+    .steps-btn-3:hover,
+    .steps-btn-3.slick-current {
+        background-size: cover;
+        order: 3;
+    }
+
+    .steps-btn-4,
+    .steps-btn-4:hover,
+    .steps-btn-4.slick-current {
+        background-size: cover;
+        order: 4;
+    }
+
+    .steps-btn-5,
+    .steps-btn-5:hover,
+    .steps-btn-5.slick-current {
+        background-size: cover;
+        order: 5;
+    }
+
+    .steps-btn-6,
+    .steps-btn-6:hover,
+    .steps-btn-6.slick-current {
+        background-size: cover;
+        order: 6;
+    }
+
+    .steps-btn-7,
+    .steps-btn-7:hover,
+    .steps-btn-7.slick-current {
+        background-size: cover;
+        order: 7;
+    }
+
+    .steps-btn-8,
+    .steps-btn-8:hover,
+    .steps-btn-8.slick-current {
+        background-size: cover;
+        order: 8;
+    }
+
+    .app-steps-btn:nth-child(4),
+    .app-steps-btn:nth-child(8) {
+        margin-bottom: 25px;
+    }
+
+    /* .step-dtl-box {
+        bottom: 92px;
+        margin: 0 auto;
+    } */
+
+    .howToUse-app::after {
+        display: none;
+    }
+
+    .howToUse-app::before {
+        height: 30%;
+    }
+
+    .section-title h2 {
+        white-space: break-spaces;
+    }
+
+    .testimonial-section .testimonial-active-wrapper .testimonial-active .testimonial-wrapper {
+        padding: 10px;
+    }
+
+    .steps-content {
+        margin-left: 28px;
+    }
+
+    .card.inner-content {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) and (min-width: 701px) {
+    .feature-section .single-feature {
+        height: 507px;
+    }
+
+    .feature-section .single-feature .icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .feature-section .single-feature {
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        padding: 0 40px;
+        font-size: 35px;
+    }
+
+    .feature-section .single-feature .content p {
+        padding: 0 60px;
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: -10px;
+        height: 112px;
+    }
+
+    .feture-top-none {
+        margin-top: 0px !important;
+    }
+
+    .navbar-collapse {
+        background-color: #091126;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+
+    .sticky .navbar .navbar-toggler .toggler-icon {
+        background: #FFF;
+    }
+
+    .hero-section {
+        padding-bottom: 400px;
+    }
+
+    .hero-section .hero-img img {
+        width: 47pc !important;
+        position: absolute;
+        top: -45px;
+        right: -23px;
+    }
+
+    #feature {
+        padding-top: 200px;
+    }
+
+    img.step-img {
+        max-width: 100%;
+    }
+
+    /* .steps-img-main .steps-img-slide img {
+        width: 26pc;
+    } */
+
+    .step-dtl-box {
+        width: 250px;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .app-steps-btn {
+        max-width: 100% !important;
+    }
+
+    .steps-btn-main .slick-track {
+        display: flex;
+    }
+
+    .steps-btn-1,
+    .steps-btn-1:hover,
+    .steps-btn-1.slick-current {
+        background-size: cover;
+        order: 1;
+        height: 100px !important;
+    }
+
+    .steps-btn-2,
+    .steps-btn-2:hover,
+    .steps-btn-2.slick-current {
+        background-size: cover;
+        order: 3;
+        height: 100px !important;
+    }
+
+    .steps-btn-3,
+    .steps-btn-3:hover,
+    .steps-btn-3.slick-current {
+        background-size: cover;
+        order: 5;
+        height: 100px !important;
+    }
+
+    .steps-btn-4,
+    .steps-btn-4:hover,
+    .steps-btn-4.slick-current {
+        background-size: cover;
+        order: 7;
+        height: 100px !important;
+    }
+
+    .steps-btn-5,
+    .steps-btn-5:hover,
+    .steps-btn-5.slick-current {
+        background-size: cover;
+        order: 2;
+        height: 100px !important;
+    }
+
+    .steps-btn-6,
+    .steps-btn-6:hover,
+    .steps-btn-6.slick-current {
+        background-size: cover;
+        order: 4;
+        height: 100px !important;
+    }
+
+    .steps-btn-7,
+    .steps-btn-7:hover,
+    .steps-btn-7.slick-current {
+        background-size: cover;
+        order: 6;
+        height: 100px !important;
+    }
+
+    .steps-btn-8,
+    .steps-btn-8:hover,
+    .steps-btn-8.slick-current {
+        background-size: cover;
+        order: 8;
+        height: 100px !important;
+    }
+
+    .app-steps-btn:nth-child(4),
+    .app-steps-btn:nth-child(8) {
+        margin-bottom: 0;
+    }
+
+    .step-dtl-box {
+        /* bottom: 107px; */
+        margin: 0px auto;
+        width: 60%;
+        font-size: 19px;
+        height: 137px;
+    }
+
+    .paging-count {
+        font-size: 15px;
+    }
+
+    .howToUse-app::after {
+        display: none;
+    }
+
+    .howToUse-app::before {
+        height: 40%;
+    }
+
+    .section-title h2 {
+        white-space: break-spaces;
+    }
+
+    .testimonial-section .testimonial-active-wrapper .testimonial-active .testimonial-wrapper {
+        padding: 10px;
+    }
+
+    .steps-content {
+        margin-left: 28px;
+    }
+
+    .mobile-top-none {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 351px) {
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .feature-section .single-feature {
+        height: 374px;
+    }
+
+    .feature-section .single-feature {
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        padding: 0 20px;
+        font-size: 24px;
+    }
+
+    .feature-section .single-feature .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .icon img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .content p {
+        padding: 0 60px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .feture-top-none {
+        margin-top: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #091126;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+
+    .sticky .navbar .navbar-toggler .toggler-icon {
+        background: #FFF;
+    }
+
+    .hero-section .hero-img img {
+        width: 24pc !important;
+        /* position: absolute;
+        top: -100px;
+        right: -23px; */
+    }
+
+    img.step-img {
+        max-width: 225px;
+    }
+
+    /* .steps-img-main .steps-img-slide img {
+        width: 300px;
+    } */
+
+    .step-dtl-box {
+        width: 250px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        padding: 0 15px 10px 15px;
+    }
+
+    .app-steps-btn {
+        max-width: 100% !important;
+    }
+
+    .steps-btn-main .slick-track {
+        display: grid;
+    }
+
+    .steps-btn-1,
+    .steps-btn-1:hover,
+    .steps-btn-1.slick-current {
+        background-size: cover;
+        order: 1;
+    }
+
+    .steps-btn-2,
+    .steps-btn-2:hover,
+    .steps-btn-2.slick-current {
+        background-size: cover;
+        order: 2;
+    }
+
+    .steps-btn-3,
+    .steps-btn-3:hover,
+    .steps-btn-3.slick-current {
+        background-size: cover;
+        order: 3;
+    }
+
+    .steps-btn-4,
+    .steps-btn-4:hover,
+    .steps-btn-4.slick-current {
+        background-size: cover;
+        order: 4;
+    }
+
+    .steps-btn-5,
+    .steps-btn-5:hover,
+    .steps-btn-5.slick-current {
+        background-size: cover;
+        order: 5;
+    }
+
+    .steps-btn-6,
+    .steps-btn-6:hover,
+    .steps-btn-6.slick-current {
+        background-size: cover;
+        order: 6;
+    }
+
+    .steps-btn-7,
+    .steps-btn-7:hover,
+    .steps-btn-7.slick-current {
+        background-size: cover;
+        order: 7;
+    }
+
+    .steps-btn-8,
+    .steps-btn-8:hover,
+    .steps-btn-8.slick-current {
+        background-size: cover;
+        order: 8;
+    }
+
+    .app-steps-btn:nth-child(4),
+    .app-steps-btn:nth-child(8) {
+        margin-bottom: 25px;
+    }
+
+    /* .step-dtl-box {
+        bottom: 92px;
+        margin: 0 auto;
+    } */
+
+    .howToUse-app::after {
+        display: none;
+    }
+
+    .howToUse-app::before {
+        height: 30%;
+    }
+
+    .section-title h2 {
+        white-space: break-spaces;
+    }
+
+    .testimonial-section .testimonial-active-wrapper .testimonial-active .testimonial-wrapper {
+        padding: 10px;
+    }
+
+    .steps-content {
+        margin-left: 28px;
+    }
+
+    .card.inner-content {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 350px) {
+    .navbar-brand img {
+        max-width: 240px;
+    }
+
+    .hero-section .row {
+        flex-direction: column-reverse;
+    }
+
+    .feature-section .single-feature {
+        height: 328px;
+    }
+
+    .feature-section .single-feature {
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        padding: 0 20px;
+        font-size: 24px;
+        margin-bottom: 5px;
+        margin-top: -20px;
+    }
+
+    .feature-section .single-feature .icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .icon img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .feature-section .single-feature .content p {
+        padding: 0 60px;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .feture-top-none {
+        margin-top: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #091126;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+
+    .sticky .navbar .navbar-toggler .toggler-icon {
+        background: #FFF;
+    }
+
+    .hero-section .hero-img img {
+        width: 20pc !important;
+        /* position: absolute;
+        top: -100px;
+        right: -23px; */
+    }
+
+    img.step-img {
+        max-width: 225px;
+    }
+
+    .steps-img-info {
+        width: 150px !important;
+    }
+
+    .steps-img-info img {
+        width: 297px;
+        height: 626px;
+    }
+
+    /* .steps-img-main .steps-img-slide img {
+        width: 300px;
+    } */
+
+    .step-dtl-box {
+        width: 250px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        padding: 0 15px 10px 15px;
+    }
+
+    .app-steps-btn {
+        max-width: 100% !important;
+        height: 71px !important;
+    }
+
+    .steps-btn-main .slick-track {
+        display: grid;
+    }
+
+    .steps-btn-1,
+    .steps-btn-1:hover,
+    .steps-btn-1.slick-current {
+        background-size: cover;
+        order: 1;
+    }
+
+    .steps-btn-2,
+    .steps-btn-2:hover,
+    .steps-btn-2.slick-current {
+        background-size: cover;
+        order: 2;
+    }
+
+    .steps-btn-3,
+    .steps-btn-3:hover,
+    .steps-btn-3.slick-current {
+        background-size: cover;
+        order: 3;
+    }
+
+    .steps-btn-4,
+    .steps-btn-4:hover,
+    .steps-btn-4.slick-current {
+        background-size: cover;
+        order: 4;
+    }
+
+    .steps-btn-5,
+    .steps-btn-5:hover,
+    .steps-btn-5.slick-current {
+        background-size: cover;
+        order: 5;
+    }
+
+    .steps-btn-6,
+    .steps-btn-6:hover,
+    .steps-btn-6.slick-current {
+        background-size: cover;
+        order: 6;
+    }
+
+    .steps-btn-7,
+    .steps-btn-7:hover,
+    .steps-btn-7.slick-current {
+        background-size: cover;
+        order: 7;
+    }
+
+    .steps-btn-8,
+    .steps-btn-8:hover,
+    .steps-btn-8.slick-current {
+        background-size: cover;
+        order: 8;
+    }
+
+    .app-steps-btn:nth-child(4),
+    .app-steps-btn:nth-child(8) {
+        margin-bottom: 25px;
+    }
+
+    /* .step-dtl-box {
+        bottom: 92px;
+        margin: 0 auto;
+    } */
+
+    .howToUse-app::after {
+        display: none;
+    }
+
+    .howToUse-app::before {
+        height: 30%;
+    }
+
+    .section-title h2 {
+        white-space: break-spaces;
+    }
+
+    .testimonial-section .testimonial-active-wrapper .testimonial-active .testimonial-wrapper {
+        padding: 10px;
+    }
+
+    .steps-content {
+        margin-left: 28px;
+    }
+
+    .card.inner-content {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 1420px) and (min-width: 992px) {
+    .feature-section .single-feature .icon img {
+        height: 70px;
+        width: 70px;
+        padding: 0 !important;
+    }
+    .feature-section .single-feature {
+        height: 395px;
+    }
+
+    .feature-section .single-feature .icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        margin-bottom: 3px !important;
+        font-size: 25px;
+        margin-top: -30px;
+    }
+
+    .feature-section .single-feature {
+        padding: 60px 0px;
+        margin-bottom: 30px;
+    }
+
+    .feature-section .single-feature .content h3 {
+        padding: 0 40px;
+        font-size: 35px;
+    }
+
+    .feature-section .single-feature .content p {
+        padding: 0 60px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .feture-top-none {
+        margin-top: 0px !important;
+    }
+
+    .navbar-collapse {
+        background-color: #091126;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .navbar-nav .nav-item a {
+        color: #fff;
+    }
+
+    .sticky .navbar .navbar-toggler .toggler-icon {
+        background: #FFF;
+    }
+
+    .hero-section {
+        padding-bottom: 400px;
+    }
+
+    .hero-section .hero-img img {
+        width: 47pc !important;
+        position: absolute;
+        top: -45px;
+        right: -23px;
+    }
+
+    #feature {
+        padding-top: 200px;
+    }
+
+    img.step-img {
+        max-width: 100%;
+    }
+
+    /* .steps-img-main .steps-img-slide img {
+        width: 26pc;
+    } */
+
+    .step-dtl-box {
+        width: 250px;
+    }
+
+    .section-title h2 {
+        font-size: 40px;
+    }
+
+    .app-steps-btn {
+        max-width: 100% !important;
+    }
+
+    .steps-btn-main .slick-track {
+        display: flex;
+    }
+
+    .steps-btn-1,
+    .steps-btn-1:hover,
+    .steps-btn-1.slick-current {
+        background-size: cover;
+        order: 1;
+        height: 100px !important;
+    }
+
+    .steps-btn-2,
+    .steps-btn-2:hover,
+    .steps-btn-2.slick-current {
+        background-size: cover;
+        order: 3;
+        height: 100px !important;
+    }
+
+    .steps-btn-3,
+    .steps-btn-3:hover,
+    .steps-btn-3.slick-current {
+        background-size: cover;
+        order: 5;
+        height: 100px !important;
+    }
+
+    .steps-btn-4,
+    .steps-btn-4:hover,
+    .steps-btn-4.slick-current {
+        background-size: cover;
+        order: 7;
+        height: 100px !important;
+    }
+
+    .steps-btn-5,
+    .steps-btn-5:hover,
+    .steps-btn-5.slick-current {
+        background-size: cover;
+        order: 2;
+        height: 100px !important;
+    }
+
+    .steps-btn-6,
+    .steps-btn-6:hover,
+    .steps-btn-6.slick-current {
+        background-size: cover;
+        order: 4;
+        height: 100px !important;
+    }
+
+    .steps-btn-7,
+    .steps-btn-7:hover,
+    .steps-btn-7.slick-current {
+        background-size: cover;
+        order: 6;
+        height: 100px !important;
+    }
+
+    .steps-btn-8,
+    .steps-btn-8:hover,
+    .steps-btn-8.slick-current {
+        background-size: cover;
+        order: 8;
+        height: 100px !important;
+    }
+
+    .app-steps-btn:nth-child(4),
+    .app-steps-btn:nth-child(8) {
+        margin-bottom: 0;
+    }
+
+    .step-dtl-box {
+        /* bottom: 107px; */
+        margin: 0px auto;
+        width: 60%;
+        font-size: 19px;
+        height: 137px;
+    }
+
+    .paging-count {
+        font-size: 15px;
+    }
+
+    .howToUse-app::after {
+        display: none;
+    }
+
+    .howToUse-app::before {
+        height: 40%;
+    }
+
+    .section-title h2 {
+        white-space: break-spaces;
+    }
+
+    .testimonial-section .testimonial-active-wrapper .testimonial-active .testimonial-wrapper {
+        padding: 10px;
+    }
+
+    .steps-content {
+        margin-left: 28px;
+    }
+
+    .mobile-top-none {
+        margin-top: 30px;
+    }
+}
